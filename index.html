@@ -1,56 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
+
 <body>
-    <ul>
-        <li>
-            <a href="#">Brand</a> 
-        </li>
-        <li> 
-            <a href="#">Browse</a>
-        </li>
-        <li> 
-            <a href="#">Sign Up</a>
-        </li>
-        <li>
-            <a href="#">Log In</a>
-        </li>
-        <li> 
-            <a href="#">Help</a>
-        </li>
-    </ul>
- <h1>Find a place to stay.</h1>
- <p>Rent from people in over 34,000 cities and 192 countries.</p>
- <h2>Neighborhood Guides</h2>
- <p>Not sure where to stay? We've created neighborhood guides for cities all around the worlk. </p>
- <img src="https:s3.amazonaws.com/codecademy-content/courses/ltp/img/mexico-city.png" alt="Trulli" width="360" height="160">
- <br>
- <img src="https://s3.amazonaws.com/codecademy-content/courses/ltp/img/ny.png" alt="Trulli" width="360" height="160">
- <br>
- <img src="https://s3.amazonaws.com/codecademy-content/courses/ltp/img/tokyo.png" alt="Trulli" width="360" height="160">
- <br>
- <img src="https://s3.amazonaws.com/codecademy-content/courses/ltp/img/paris.png" alt="Trulli" width="360" height="160">
- <br>
- <img src="https://s3.amazonaws.com/codecademy-content/courses/ltp/img/invite.png" alt="Trulli" width="360" height="350">
-<h3>Travel</h3>
-<p>From apartments and rooms to treehouses and boats: stay in unique spaces in 192 countries.</p>
-<p>
-        <a href="#">See how to travel on Airbnb</a>
-</p>
-<h3>Host</h3>
-<p>Renting out your unused space could pay your bills or fund your next vacation.</p>
-<p>
-    <a href="#">Learn more about hosting</a>
-</p>
-<h3>Trust and Safety</h3>
-<p>From Verified ID to our worldwide customer support team, we've got your back.</p>
-<p>
-    <a href="#">Learn about trust at Airbub</a>
-</p>
+    <div class="container">
+        <header>
+            <ul class="nav">
+                <li class="item">
+                    <a href="#">Brand</a>
+                </li>
+                <li class="item browse">
+                    <a href="#">Browse</a>
+                </li>
+                <li class="item">
+                    <a href="#">Sign Up</a>
+                </li>
+                <li class="item">
+                    <a href="#">Log In</a>
+                </li>
+                <li class="item">
+                    <a href="#">Help</a>
+                </li>
+            </ul>
+        </header>
+        <section>
+            <div id="banner">
+                <img src="https://s3.amazonaws.com/codecademy-content/courses/ltp/img/lodging.png" alt="Nature"
+                    style="width:100%;">
+                <div class="image-text">
+                    <h1>Find a place to stay.</h1>
+                    <p>Rent from people in over 34,000 cities and 192 countries.</p>
+                </div>
+            </div>
+        </section>
+        <section class="image-list">
+            <div class="image-list-title">
+                <h2>Neighborhood Guides</h2>
+                <p>Not sure where to stay? We've created neighborhood guides for cities all around the worlk. </p>
+            </div>
+
+            <div class="image-list-box">
+                <div class="image-list-column">
+                    <img src="https:s3.amazonaws.com/codecademy-content/courses/ltp/img/mexico-city.png" alt="Trulli"
+                        height="160">
+                    <img src="https://s3.amazonaws.com/codecademy-content/courses/ltp/img/ny.png" alt="Trulli"
+                        width="360" height="160">
+                </div>
+                <div class="image-list-column">
+                    <img src="https://s3.amazonaws.com/codecademy-content/courses/ltp/img/tokyo.png" alt="Trulli"
+                        height="160">
+                    <img src="https://s3.amazonaws.com/codecademy-content/courses/ltp/img/paris.png" alt="Trulli"
+                        height="160">
+                </div>
+                <div class="image-list-column">
+                    <img src="https://s3.amazonaws.com/codecademy-content/courses/ltp/img/invite.png" alt="Trulli"
+                        height="345">
+                </div>
+            </div>
+
+
+        </section>
+        <section>
+            <div class="footer">
+                <div class="footer-column">
+                    <h3>Travel</h3>
+                    <p>From apartments and rooms to treehouses and boats: stay in unique spaces in 192 countries.</p>
+                    <a href="#">See how to travel on Airbnb</a>
+                </div>
+                <div class="footer-column">
+                    <h3>Host</h3>
+                    <p>Renting out your unused space could pay your bills or fund your next vacation.</p>
+                    <a href="#">Learn more about hosting</a>
+
+                </div>
+                <div class="footer-column">
+                    <h3>Trust and Safety</h3>
+                    <p>From Verified ID to our worldwide customer support team, we've got your back.</p>
+                    <a href="#">Learn about trust at Airbub</a>
+                </div>
+
+            </div>
+        </section>
+    </div>
 </body>
+
 </html>
